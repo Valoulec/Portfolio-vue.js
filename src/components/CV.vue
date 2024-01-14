@@ -17,8 +17,8 @@
                     <a href="https://github.com/Valoulec/CV/tree/main/CV" class="lien-modal">GitHub</a>
                 </div>
                 <div>
-                   <img src="../img/icons8-html5.svg" class="img-modal" alt="">
-                   <img src="../img/icons8-css3.svg" class="img-modal" alt="">
+                   <img src="../img/icons8-html5.svg" class="img-modal" alt="HTML15">
+                   <img src="../img/icons8-css3.svg" class="img-modal" alt="CSS3">
                 </div>
             </div>
         </div>
@@ -43,11 +43,13 @@
         right: 0;
         left: 0;
         background-color: rgba(0,0, 0, 0.5) ;
+      
         }
         .modal{
         position: fixed;
         top: 25%;
         left: 25%;
+        padding-left: 20px ;
         transform: translate(-50, -50);
         width: 600px;
         height: 400px;
@@ -56,6 +58,17 @@
         border-radius: 10px;
         z-index: 500;
         }
+        .btn-modal-fermer{
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+        .lien-modal{
+            color: #0BD8B6;
+          }
+          .lien-modal:hover{
+            color: #BAA7FF;
+          }
     }
     
     </style>

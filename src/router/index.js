@@ -11,33 +11,33 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
-            name:'header',
+            name:'Header',
             path : '/HeaderPF',
             component: HeaderPF
         },
         {
-            name:'main',
-            path : '/MainPortfolio.vue',
+            name:'Moi',
+            path : '/Moi',
             component: MoiPF
         },
         {
-            name:'projet',
-            path : '/MyProjet.vue',
+            name:'Projet',
+            path : '/Projet',
             component: MesProjets
         },
         {
-            name:'exp',
-            path : '/ExperiencePortfolio.vue',
+            name:'Exp',
+            path : '/Exp',
             component: MesExperiences
         },
         {
-            name:'contact',
-            path : '/ContactPortfolio.vue',
+            name:'Contact',
+            path : '/Contact',
             component: ContactPF
         },
         {
             name:'erreur',
-            path: '/PageErreur.vue',
+            path: '/:catchAll(.*)',
             component: PageError  // Composant à afficher pour les URLs inconnues
           }
     ]

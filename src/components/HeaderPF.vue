@@ -6,42 +6,48 @@
           </div>
           <div class="groupe">
             <div class="barre">
-              <router-link to="/main" class="color-groupe"> A propos</router-link>
-              <a href="../components/MainPortfolio.vue" class="color-groupe" target="_blank" @click.prevent="Apropos">A propos</a>
+              <button  @click="scrollToParent('moi')"  class="color-groupe" target="_blank" click="scrollToElement">A propos</button>
             </div>
             <div class="barre">
-              <a href="../components/MainPortfolio.vue" class="color-groupe" target="_blank" @click.prevent=" Sosial">Social</a>
+              <button  @click="scrollToParent('moi')" class="color-groupe" target="_blank" click="scrollToElement">Social</button>
             </div>
             <div class="barre">
-              <router-link to="/MyProjet.vue" class="color-groupe"> projet</router-link>
-              <a href="../components/MyProjet.vue" class="color-groupe" target="_blank" @click.prevent="Projet">Projet</a>
+              <button  @click="scrollToParent('projet')" class="color-groupe" target="_blank" click="scrollToElement">Projet</button>
             </div>
             <div class="barre">
-              <a href="../components/ExperiencePortfolio.vue" class="color-groupe" target="_blank" @click.prevent="Expérience">Expérience</a>
+              <button  @click="scrollToParent('exp')" class="color-groupe" target="_blank" click="scrollToElement">Expérience</button>
             </div>
             <div class="barre">
-              <a href="../components/ContactPortfolio.vue" class="color-groupe" target="_blank" @click.prevent="Contact">Contact</a>
+              <button  @click="scrollToParent('contact')" class="color-groupe" target="_blank" click="scrollToElement" >Contact</button>
             </div>
             <div class="barre">
-            <button @click="scrollToTop" class="btn"><img src="../img/icons8-flèche-haut-96.png" class="img" alt=""/></button>
+            <button @click="scrollToTop" class="btn" id="btn"><img src="../img/icons8-flèche-haut-96.png" class="img" alt="flèche du haut "/></button>
           </div>
           </div>
         </div>
     </div>
-    <router-view></router-view>
   </template>
   
   <script>
+
   export default {
-    methods: {
-      scrollToTop() {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth" // Pour un défilement fluide
-        });
-      }
+
+  methods: {
+    scrollToParent(elementId) {
+      this.$emit('scrollToParent',elementId);
+    },
+
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    },
     }
-  }
+}
+
+
+
   </script>
   
   <style lang="scss">
@@ -52,13 +58,17 @@
       top: 0;
       z-index: 1000;
     .btn{
-      background: 100%;
-      width: 30px;
-      height: 30px;
-      border: 0;
-      border-radius: 50% ;
-      padding: 0;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  border: none;
+  padding: 10px;
+  border-radius: 40%;
+  background-color: #291F43;
     }
+.btn:hover{
+  background-color:  #BAA7FF;
+}
    .img{
     display: flex;
     justify-content: center;
@@ -87,9 +97,13 @@
           font-size: 25px;
           padding-top: 20px; 
           .color-groupe{
+            border: none;
+            background-color: rgba(0, 0, 0,0);
             color: #0BD8B6;
             text-decoration: none;}
             .color-groupe:hover{
+              background-color: rgba(0, 0, 0,0);
+              border: none;
       color: #BAA7FF;
       text-decoration: underline;
   }

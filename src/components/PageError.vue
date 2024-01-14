@@ -1,6 +1,6 @@
 <template>
   <div class>
-    <div class="image"><img src="img/erreur.svg" class="imga" alt=""></div>
+    <div class="image"><img src="../img/erreur.svg" class="imga" alt=""></div>
     <div class="mes">
         <div class="oups">OUPS !!!</div>
         <div class="message">il y a rien à voir ici!</div>

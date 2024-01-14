@@ -1,11 +1,20 @@
 <template class="template">
-  <HeaderPF/>
-  <MoiPF/>
-  <MesProjets/>
-  <MesExperiences/>
-  <ContactPF/>
+  <div ref="parentElement">
+  <HeaderPF @scrollToParent="scrollToElement"/>
+  <div ref="moi">
+  <MoiPF />
+</div>
+<div ref="projet">
+  <MesProjets />
+</div>
+<div ref="exp">
+  <MesExperiences />
+</div>
+<div ref="contact">
+  <ContactPF />
+</div>
+</div>
   <FooterPF/>
-
   
   
   </template>
@@ -35,7 +44,12 @@ import FooterPF from './components/FooterPF.vue';
   
       FooterPF,
     },
-  }
+    methods:{
+      scrollToElement(elementId) {
+      this.$refs[elementId].scrollIntoView({ behavior: 'smooth' });
+    }
+}
+    }
   
   </script>
   

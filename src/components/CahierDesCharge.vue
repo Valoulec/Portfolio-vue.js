@@ -1,24 +1,20 @@
 <template>
-    <div class=" block-modal" v-if="ouvrircv">
+    <div class=" block-modal" v-if="ouvrircdc">
     
-        <div class="overlay" v-on:click="fermercv"></div>
+        <div class="overlay" v-on:click="fermercdc"></div>
     
         <div class="modal">
-            <button class="btn-modal-fermer" v-on:click="fermercv"></button>
+            <button class="btn-modal-fermer" v-on:click="fermercdc"></button>
             <div>
                 <div class="title-modal">
-                    <h2 class="titre-modal">CV</h2>
-                    <p class="date">07-11-2023</p>
+                    <h2 class="titre-modal">Cahier des charges</h2>
+                    <p class="date">23-11-2023</p>
                 </div>
                 <div>
                     <p class="text-modal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, culpa, eligendi cupiditate itaque sequi unde distinctio, repellendus ab qui molestiae animi? Corporis aliquid consectetur provident laudantium nostrum earum quasi. Inventore!</p>
                 </div>
                 <div>
                     <a href="../projet/cahier-des-charges-site-e-commerce.pdf" class="lien-modal">PDF du projet</a>
-                </div>
-                <div>
-                   <img src="../img/icons8-html5.svg" class="img-modal" alt="">
-                   <img src="../img/icons8-css3.svg" class="img-modal" alt="">
                 </div>
             </div>
         </div>
@@ -28,7 +24,7 @@
     
     <script>
     export default {
-        props:['ouvrircv', 'fermercv'],
+        props:['ouvrircdc', 'fermercdc'],
     }
     </script>
     
@@ -56,6 +52,12 @@
         border-radius: 10px;
         z-index: 500;
         }
+        .lien-modal{
+            color: #0BD8B6;
+          }
+          .lien-modal:hover{
+            color: #BAA7FF;
+          }
     }
     
     </style>

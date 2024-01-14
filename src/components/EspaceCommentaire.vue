@@ -7,7 +7,7 @@
           <div>
               <div class="title-modal">
                   <h2 class="titre-modal">Espace commentaire</h2>
-                  <p class="date">07-11-2023</p>
+                  <p class="date">08-12-2023</p>
               </div>
               <div>
                   <p class="text-modal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, culpa, eligendi cupiditate itaque sequi unde distinctio, repellendus ab qui molestiae animi? Corporis aliquid consectetur provident laudantium nostrum earum quasi. Inventore!</p>
@@ -16,8 +16,8 @@
                   <a href="https://github.com/Valoulec/dynamiser-un-espace-commentaire-" class="lien-modal">GitHub</a>
               </div>
               <div>
-                 <img src="../img/icons8-html5.svg" class="img-modal" alt="">
-                 <img src="../img/icons8-javascript.svg" class="img-modal" alt="">
+                 <img src="../img/icons8-html5.svg" class="img-modal" alt="HTML15">
+                 <img src="../img/icons8-javascript.svg" class="img-modal" alt="JavaScript">
               </div>
           </div>
       </div>
@@ -52,6 +52,12 @@
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
           border-radius: 10px;
           z-index: 500;
+          }
+          .lien-modal{
+            color: #0BD8B6;
+          }
+          .lien-modal:hover{
+            color: #BAA7FF;
           }
       }
       </style>

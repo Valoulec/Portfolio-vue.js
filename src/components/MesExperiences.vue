@@ -6,13 +6,13 @@
                <h3 class="soustitle">front-end</h3>
                <div class="exp">
                  <div class="front-end">
-                   <img src="../img/icons8-html5.svg" class="img-lang" alt="" />
+                   <img src="../img/icons8-html5.svg" class="img-lang" alt="HTML15" />
                  </div>
                  <div class="front-end">
-                   <img src="../img/icons8-css3.svg" class="img-lang" alt="" />
+                   <img src="../img/icons8-css3.svg" class="img-lang" alt="CSS3" />
                  </div>
                  <div class="front-end">
-                   <img src="../img/icons8-javascript.svg" class="img-lang" alt=""/>
+                   <img src="../img/icons8-javascript.svg" class="img-lang" alt="JavaScript"/>
                  </div>
                </div>
              </div>
@@ -20,23 +20,23 @@
                <h3 class="soustitle">back-end</h3>
                <div class="exp">
                <div class="back-end">
-                 <img src="../img/icons8-nœud-js.svg" class="img-lang" alt="" />
+                 <img src="../img/icons8-nœud-js.svg" class="img-lang" alt="Node.js" />
                </div>
               <div class="back-end">
-               <img src="../img/icons8-vue-js.svg" class="img-lang" alt="" />
+               <img src="../img/icons8-vue-js.svg" class="img-lang" alt="Vue.js" />
               </div>
              </div>
              </div>
              <div class="">
                <h3 class="soustitle">design</h3>
                <div class="design">
-                 <img src="../img/icons8-figma.svg" class="img-lang" alt="" />
+                 <img src="../img/icons8-figma.svg" class="img-lang" alt="Figma" />
                </div>
              </div>
              <div class="">
                <h3 class="soustitle">Autre</h3>
                <div class="autre">
-                 <img src="../img/icons8-github-144.png" class="img-lang" alt="" />
+                 <img src="../img/icons8-github-144.png" class="img-lang" alt="GitHub" />
                </div>
              </div>
            </div>

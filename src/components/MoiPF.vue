@@ -8,17 +8,9 @@
             <div class="">
               <h2 class="title-propos" id="A propos">A Propos</h2>
               <article class="texte">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum
-                velit quasi est fugiat? Distinctio enim voluptates qui nam ullam
-                veniam? Soluta aliquam rem quam! Iste, repellendus fuga?
-                Repudiandae, eaque unde! Lorem ipsum dolor, sit amet consectetur
-                adipisicing elit. Autem quod corrupti facere quo tempore nihil
-                officia perspiciatis totam, voluptatibus quam, eius porro ducimus
-                non dolorem et tenetur eum sequi earum! Lorem ipsum dolor sit
-                amet, consectetur adipisicing elit. Id blanditiis soluta assumenda
-                ullam magnam, maxime distinctio odio cumque dignissimos, dolorum
-                rerum unde voluptates! Accusantium tempora enim praesentium ipsam
-                obcaecati dolore.
+                Après avoir fait des études de chimie, j’ai changé de voie en me dirigeant vers le développement web, une passion qui a rapidement pris le dessus. Actuellement, je suis en formation en développement web et web mobile pour me lancer ensuite dans le développement front-end.<br class="br"/>
+                J’ai naturellement été attiré par le front-end pour ses langages HTML, CSS et JavaScript, ainsi que pour le design, car j’aime avoir un visuel de ce que j’entreprends. <br class="br"/>
+                Je suis curieux, optimiste et ouvert d’esprit. Mon objectif est de devenir un développeur expérimenté, de participer à des projets valorisants et d’évoluer dans une entreprise en adéquation avec mes valeurs.
               </article>
             </div>
           </div>
@@ -27,13 +19,13 @@
               <h2 class="title-social" id="social">Social</h2>
               <div class="logo-sociaux">
                 <div class="logo-espace">
-                  <a href="https://github.com/Valoulec" class="" target="_blank"><img src="../img/icons8-github-144.png" class="sociaux"/></a>
+                  <a href="https://github.com/Valoulec" class="" target="_blank"><img src="../img/icons8-github-144.png" class="sociaux" alt="GitHub"/></a>
                 </div>
                 <div class="logo-espace">
-                  <a href="https://www.linkedin.com/in/valentin-leclerc-87b67b1b5/" target="_blank" class=""><img src="../img/icons8-logo-linkedin-144.png" class="sociaux" alt=""/></a>
+                  <a href="https://www.linkedin.com/in/valentin-leclerc-87b67b1b5/" target="_blank" class=""><img src="../img/icons8-logo-linkedin-144.png" class="sociaux" alt="Linkedin"/></a>
                 </div>
                 <div class="logo-espace">
-                  <a href="https://discord.com/channels/@me" class="" target="_blank"><img src="../img/icons8-nouveau-logo-discord-144.png" class="sociaux" alt=""/></a>
+                  <a href="https://discord.com" class="" target="_blank"><img src="../img/icons8-nouveau-logo-discord-144.png" class="sociaux" alt="Discord"/></a>
                 </div>
               </div>
             </div>
@@ -121,5 +113,7 @@
         justify-content: center
       }
     }
-  }
+    br{
+      margin-top: 20px;
+    }  }
   </style>

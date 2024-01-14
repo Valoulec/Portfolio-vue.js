@@ -5,15 +5,15 @@
     <h2 class="title-projet" id="[projet](index.html)">Projets</h2>
     <div class="img-projet">
       <div class="img">
-        <img src="../img/CV.jpeg" class="imgdim" alt="" />
+        <img src="../img/CV.jpeg" class="imgdim" alt="Projet CV" />
         <button v-on:click="fermercv" class="btn-modal">Détail du CV</button>
       </div>
       <div class="img">
-        <img src="../img/Cahier-des-charges-.jpeg" class="imgdim" alt="" />
+        <img src="../img/Cahier-des-charges-.jpeg" class="imgdim" alt="Porjet Cahier des charges" />
         <button v-on:click="fermercdc" class="btn-modal">Détail du Cahier des Charges</button>
       </div>
       <div class="img">
-        <img src="../img/Espace-commentaire.jpeg" class="imgdim" alt="" />
+        <img src="../img/Espace-commentaire.jpeg" class="imgdim" alt="Projet Espace commentaire" />
         <button v-on:click="fermerec" class="btn-modal">Détail de l'espace commentaire </button>
       </div>
     </div>
