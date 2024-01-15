@@ -2,6 +2,7 @@
     <div>
         <div class="divtitle">
           <h1 class="title">Développeur web <br /> et web mobile </h1>
+          <img src="../img/logo.png" class="logo" alt="Logo LV">
         </div>
         <div class="propos-social" id="[apropos-social](index.html)">
           <div class="apropos">
@@ -59,6 +60,13 @@
     50% { transform:  scale(1.5);; color: #0BD8B6;}
     100% { transform:  scale(1);; color: #BAA7FF; }
   
+  }
+  .logo{
+    position: absolute;
+    right: 250px;
+    width: 250px;
+    height: 250px;
+    margin-top: 100px;
   }
   }
   .propos-social{

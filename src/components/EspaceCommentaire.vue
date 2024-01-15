@@ -3,20 +3,20 @@
       
       <div class="overlay" v-on:click="fermerec"></div>
       <div class="modal">
-          <button class="btn-modal-fermer" v-on:click="fermerec"></button>
+          <button class="btn-modal-fermer" v-on:click="fermerec"><img src="../img/icons8-multiplier-52.png" class="img" alt=""></button>
           <div>
               <div class="title-modal">
                   <h2 class="titre-modal">Espace commentaire</h2>
                   <p class="date">08-12-2023</p>
               </div>
               <div>
-                  <p class="text-modal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, culpa, eligendi cupiditate itaque sequi unde distinctio, repellendus ab qui molestiae animi? Corporis aliquid consectetur provident laudantium nostrum earum quasi. Inventore!</p>
+                  <p class="text-modal">Je devais dynamiser un espace commentaire dans lequel je devais récupérer les données de l’utilisateur pour l’afficher dans une liste de commentaire.</p>
               </div>
               <div>
-                  <a href="https://github.com/Valoulec/dynamiser-un-espace-commentaire-" class="lien-modal">GitHub</a>
+                  <a href="https://github.com/Valoulec/dynamiser-un-espace-commentaire-" class="lien-modal" target="_blank">GitHub</a>
               </div>
               <div>
-                 <img src="../img/icons8-html5.svg" class="img-modal" alt="HTML15">
+                 <img src="../img/icons8-html5.svg" class="img-modal" alt="HTML5">
                  <img src="../img/icons8-javascript.svg" class="img-modal" alt="JavaScript">
               </div>
           </div>
@@ -52,6 +52,22 @@
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
           border-radius: 10px;
           z-index: 500;
+          .btn-modal-fermer{
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            background-color: rgb(0, 0, 0,0);
+            border: none;
+            .img{
+                width: 20px;
+                height: 20px;
+                background-color: rgb(0, 0, 0,0);
+            }
+            .img:hover{
+                transform: rotate(150deg);
+                transition: transform 0.5s ease;
+            }
+        }
           }
           .lien-modal{
             color: #0BD8B6;

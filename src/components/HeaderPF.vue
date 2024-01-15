@@ -6,19 +6,19 @@
           </div>
           <div class="groupe">
             <div class="barre">
-              <button  @click="scrollToParent('moi')"  class="color-groupe" target="_blank" click="scrollToElement">A propos</button>
+              <button  @click="scrollToParent('moi')"  class="color-groupe"  >A propos</button>
             </div>
             <div class="barre">
-              <button  @click="scrollToParent('moi')" class="color-groupe" target="_blank" click="scrollToElement">Social</button>
+              <button  @click="scrollToParent('moi')" class="color-groupe">Social</button>
             </div>
             <div class="barre">
-              <button  @click="scrollToParent('projet')" class="color-groupe" target="_blank" click="scrollToElement">Projet</button>
+              <button  @click="scrollToParent('projet')" class="color-groupe" >Projet</button>
             </div>
             <div class="barre">
-              <button  @click="scrollToParent('exp')" class="color-groupe" target="_blank" click="scrollToElement">Expérience</button>
+              <button  @click="scrollToParent('exp')" class="color-groupe">Expérience</button>
             </div>
             <div class="barre">
-              <button  @click="scrollToParent('contact')" class="color-groupe" target="_blank" click="scrollToElement" >Contact</button>
+              <button  @click="scrollToParent('contact')" class="color-groupe">Contact</button>
             </div>
             <div class="barre">
             <button @click="scrollToTop" class="btn" id="btn"><img src="../img/icons8-flèche-haut-96.png" class="img" alt="flèche du haut "/></button>
@@ -96,11 +96,14 @@
           padding: 20px;
           font-size: 25px;
           padding-top: 20px; 
+          
           .color-groupe{
             border: none;
             background-color: rgba(0, 0, 0,0);
             color: #0BD8B6;
-            text-decoration: none;}
+            text-decoration: none;
+          font-size: 25px;
+          }
             .color-groupe:hover{
               background-color: rgba(0, 0, 0,0);
               border: none;

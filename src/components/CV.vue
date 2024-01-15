@@ -4,20 +4,20 @@
         <div class="overlay" v-on:click="fermercv"></div>
     
         <div class="modal">
-            <button class="btn-modal-fermer" v-on:click="fermercv"></button>
+            <button class="btn-modal-fermer" v-on:click="fermercv"><img src="../img/icons8-multiplier-52.png" class="img" alt="fermer"></button>
             <div>
                 <div class="title-modal">
                     <h2 class="titre-modal">CV</h2>
                     <p class="date">07-11-2023</p>
                 </div>
                 <div>
-                    <p class="text-modal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, culpa, eligendi cupiditate itaque sequi unde distinctio, repellendus ab qui molestiae animi? Corporis aliquid consectetur provident laudantium nostrum earum quasi. Inventore!</p>
+                    <p class="text-modal">Durant ma formation pour valider des acquis en HTML et CSS je devais concevoir un cv avec une maquette imposer.</p>
                 </div>
                 <div>
-                    <a href="https://github.com/Valoulec/CV/tree/main/CV" class="lien-modal">GitHub</a>
+                    <a href="https://github.com/Valoulec/CV/tree/main/CV" class="lien-modal" target="_blank">GitHub</a>
                 </div>
                 <div>
-                   <img src="../img/icons8-html5.svg" class="img-modal" alt="HTML15">
+                   <img src="../img/icons8-html5.svg" class="img-modal" alt="HTML5">
                    <img src="../img/icons8-css3.svg" class="img-modal" alt="CSS3">
                 </div>
             </div>
@@ -62,6 +62,17 @@
             position: absolute;
             right: 10px;
             top: 10px;
+            background-color: rgb(0, 0, 0,0);
+            border: none;
+            .img{
+                width: 20px;
+                height: 20px;
+                background-color: rgb(0, 0, 0,0);
+            }
+            .img:hover{
+                transform: rotate(150deg);
+                transition: transform 0.5s ease;
+            }
         }
         .lien-modal{
             color: #0BD8B6;

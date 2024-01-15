@@ -6,7 +6,7 @@
                <h3 class="soustitle">front-end</h3>
                <div class="exp">
                  <div class="front-end">
-                   <img src="../img/icons8-html5.svg" class="img-lang" alt="HTML15" />
+                   <img src="../img/icons8-html5.svg" class="img-lang" alt="HTML5" />
                  </div>
                  <div class="front-end">
                    <img src="../img/icons8-css3.svg" class="img-lang" alt="CSS3" />

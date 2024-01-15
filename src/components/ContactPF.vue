@@ -54,10 +54,10 @@ export default {
       // Ici, vous pouvez appeler votre API pour envoyer un e-mail.
        try {
       axios.post('http://localhost:3000/send-email', this.form);
-      alert('Email sent');
+      alert('Email envoyer');
     } catch (error) {
       console.error(error);
-      alert('Error sending email');
+      alert('Erreur lor de l\'envoie de l\'email');
     }
       console.log(this.form);
     }
