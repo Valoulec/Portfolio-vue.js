@@ -35,12 +35,15 @@ const router = createRouter({
             path : '/Contact',
             component: ContactPF
         },
-        {
-            name:'erreur',
-            path: '/:catchAll(.*)',
-            component: PageError  // Composant à afficher pour les URLs inconnues
-          }
-    ]
+        { 
+            path: '/error', 
+            name: 'Error', 
+            component: PageError 
+        },
+        { path: '*', redirect: '/error' }
+    ],
+
 })
+
 
 export default router;

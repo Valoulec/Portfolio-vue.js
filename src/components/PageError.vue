@@ -1,12 +1,12 @@
 <template>
-  <div class>
-    <div class="image"><img src="../img/erreur.svg" class="imga" alt=""></div>
-    <div class="mes">
-        <div class="oups">OUPS !!!</div>
-        <div class="message">il y a rien à voir ici!</div>
+    <div class>
+        <div class="image"><img src="../img/erreur.svg" class="imga" alt=""></div>
+        <div class="mes">
+            <div class="oups">OUPS !!!</div>
+            <div class="message">il y a rien à voir ici!</div>
+        </div>
+        <a href="App.vue" class="but"><button class="button">revenir a la pages d'accueil</button></a>
     </div>
-    <a href="index.html" class="but"><button class="button">revenir a la pages d'accueil</button></a>
-  </div>
 </template>
 
 <script>
@@ -17,15 +17,6 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
-
-.body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#291F43; ;
-    flex-direction: column;
-    font-family: "mina";
-}
 .image{
     display: flex;
     justify-content: center;

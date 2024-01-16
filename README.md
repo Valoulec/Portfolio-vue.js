@@ -1,24 +1,14 @@
-# portfolio-vue.js
+La conception du site via un lien vers votre repository GitHub. Vous penserez à
+créer un fichier README.md à la racine du projet avec les prérequis du projet ainsi que
+les instructions d’installation et de lancement.
 
-## Project setup
-```
-npm install
-```
+prérequis du projet : 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- utilisation de visual studio code 
+- création du projet fait avec vue.js version 3.2.13
 
-### Compiles and minifies for production
-```
-npm run build
-```
+les instruction d'instalation 
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- instalation de node.js
+- intalation vue.js 
+- instalation d'extention de vue (vue.router, Axios, Express, Nodemailer)

@@ -1,8 +1,6 @@
 <template>
     <div class=" block-modal" v-if="ouvrircv">
-    
         <div class="overlay" v-on:click="fermercv"></div>
-    
         <div class="modal">
             <button class="btn-modal-fermer" v-on:click="fermercv"><img src="../img/icons8-multiplier-52.png" class="img" alt="fermer"></button>
             <div>
@@ -23,40 +21,37 @@
             </div>
         </div>
     </div>
+</template>
     
-    </template>
-    
-    <script>
+<script>
     export default {
         props:['ouvrircv', 'fermercv'],
     }
-    </script>
+</script>
     
-    <style lang="scss">
-    
+<style lang="scss">
     .block-modal{
         position: absolute;
         .overlay{
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        background-color: rgba(0,0, 0, 0.5) ;
-      
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background-color: rgba(0,0, 0, 0.5) ;
         }
         .modal{
-        position: fixed;
-        top: 25%;
-        left: 25%;
-        padding-left: 20px ;
-        transform: translate(-50, -50);
-        width: 600px;
-        height: 400px;
-        background-color: #33255B;;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        border-radius: 10px;
-        z-index: 500;
+            position: fixed;
+            top: 25%;
+            left: 25%;
+            padding-left: 20px ;
+            transform: translate(-50, -50);
+            width: 600px;
+            height: 400px;
+            background-color: #33255B;;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 10px;
+            z-index: 500;
         }
         .btn-modal-fermer{
             position: absolute;
@@ -76,10 +71,9 @@
         }
         .lien-modal{
             color: #0BD8B6;
-          }
-          .lien-modal:hover{
+        }
+        .lien-modal:hover{
             color: #BAA7FF;
-          }
+        }
     }
-    
-    </style>
+</style>
